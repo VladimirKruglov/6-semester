@@ -47,7 +47,7 @@ input {
     line-height: 24px;
 }
     
-button {
+.search_button {
     height: 3vw;
     width: 3vw;
     position: absolute;
@@ -150,6 +150,11 @@ html {
     left: -7%;
 }
 
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
 .dropdown-content {
     display: none;
     position: absolute;
@@ -167,3 +172,39 @@ html {
 }
 
 .dropdown-content a:hover {background-color: #ddd;}
+
+.img_calc {
+    margin: auto;
+    width: 50%;
+    border: 1px solid;
+}
+
+.el_title {
+    text-align: center;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-size: 1.2vw;
+    background-color: #f1f1f1;
+    margin: auto;
+    width: 50%;
+}
+
+.more {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-size: 1vw;
+}
+
+.btn_add_ {
+    position: relative;
+    width: 70%;
+    top: 25%;
+}
+
+button btn-warning {
+    color: #FFFFFF;
+}
+
+.btn btn-success {
+    width: 50%;
+}
